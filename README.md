@@ -40,14 +40,18 @@ Hoping to improve it gradually in the coming times.\
 `TENURE` Tenure of credit card service for user.
     
 ## Evaluation
-The accuracy score is using to evaluate the performance, because of the balanced dataset, also, the model is evaluated by validation dataset and testing dataset.
+
+I measure the accuracy of each algorithm using:
+Inertia, Silhouette, Silhouette score diagram (Silhouette Visualizer), also (Bayesian information criterion, Distance between Gaussian mixtures) for Gaussian mixture model.
 
 ## Technologies
+
 * Programming language: Python.
 * Libraries: Numpy, Matplotlib, Pandas, Seaborn, plotly, tabulate, math, sklearn, scipy, yellowbrick. 
 * Application: Jupyter Notebook.
 
 ## Setup
+
 To run this project setup the following libraries on your local machine using pip on the terminal after installing Python:\
 '''\
 pip install numpy\
