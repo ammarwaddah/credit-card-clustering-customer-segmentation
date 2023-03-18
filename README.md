@@ -14,9 +14,9 @@ Using Machine Learning and Clustering techniques to organizing similar objects i
 
 ## Introduction
 
-Business leadership takes its place in the applications of artificial intelligence, and artificial intelligence seeks, as usual, to gain its effectiveness with it (as it seeks to enhance its effectiveness in all other fields), but the difficulty of these areas lies in processing large and diverse data, and it's difficult to separate it into similar groups aimed at identifying their diversity, and here lies the importance of clustering in applications of artificial intelligence, thus Clustering is the act of organizing similar objects into groups, and used to identify groups of similar objects in datasets with two or more variable quantities. Based on this introduction, I will present to you my project solving the problem of #Clustering, using a lot of effective algorithm and techniques with a good analysis (EDA), and comparing between them using logical thinking, and put my suggestions for solving it with the best possible ways and the current capabilities using Machine Learning.\
+Business leadership takes its place in the applications of artificial intelligence, and artificial intelligence seeks, as usual, to gain its effectiveness with it (as it seeks to enhance its effectiveness in all other fields), but the difficulty of these areas lies in processing large and diverse data, and it's difficult to separate it into similar groups aimed at identifying their diversity, and here lies the importance of clustering in applications of artificial intelligence, thus Clustering is the act of organizing similar objects into groups, and used to identify groups of similar objects in datasets with two or more variable quantities. Based on this introduction, I will present to you my project solving the problem of #Clustering, using a lot of effective algorithm and techniques with a good analysis (EDA), and comparing between them using logical thinking, and put my suggestions for solving it with the best possible ways and the current capabilities using Machine Learning.
 
-Hoping to improve it gradually in the coming times.\
+Hoping to improve it gradually in the coming times.
 
 ## Dataset General info
 
