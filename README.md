@@ -1,4 +1,5 @@
 # Credit Card Clustering Customer Segmentation
+
 Using Machine Learning and Clustering techniques to organizing similar objects into groups using significant features given by the most linked features that are taken into consideration when evaluating the target.
 
 ## Table of Contents
@@ -13,7 +14,8 @@ Using Machine Learning and Clustering techniques to organizing similar objects i
 
 ## Introduction
 
-Business leadership takes its place in the applications of artificial intelligence, and artificial intelligence seeks, as usual, to gain its effectiveness with it (as it seeks to enhance its effectiveness in all other fields), but the difficulty of these areas lies in in processing large and diverse data, and it's difficult to separate it into similar groups aimed at identifying their diversity, and here lies the importance of clustering in applications of artificial intelligence, thus Clustering is the act of organizing similar objects into groups, and used to identify groups of similar objects in datasets with two or more variable quantities. Based on this introduction, I will present to you my project solving the problem of Clustering, using a lot of effective algorithm and techniques with a good analysis (EDA), and comparing between them using logical thinking, and put my suggestions for solving it with the best possible ways and the current capabilities using Machine Learning.\
+Business leadership takes its place in the applications of artificial intelligence, and artificial intelligence seeks, as usual, to gain its effectiveness with it (as it seeks to enhance its effectiveness in all other fields), but the difficulty of these areas lies in processing large and diverse data, and it's difficult to separate it into similar groups aimed at identifying their diversity, and here lies the importance of clustering in applications of artificial intelligence, thus Clustering is the act of organizing similar objects into groups, and used to identify groups of similar objects in datasets with two or more variable quantities. Based on this introduction, I will present to you my project solving the problem of #Clustering, using a lot of effective algorithm and techniques with a good analysis (EDA), and comparing between them using logical thinking, and put my suggestions for solving it with the best possible ways and the current capabilities using Machine Learning.\
+
 Hoping to improve it gradually in the coming times.\
 
 ## Dataset General info
@@ -89,26 +91,26 @@ conda install -c districtdatalabs yellowbrick\
 
 **Briefly about the process of the project work, here are (some) insights that I took care of it:**
 
-* Explore the dataset
+* Explore the dataset 
 
-* EDA step
+* EDA step 
 
-* Preprocess step:
+* preprocess step: 
 
-Dealing with missing and duplicated values after some check the effect of each value on the other feature, Check the correlation with other columns, and the distribution of each feature that has missing values.
+Dealing with missing and duplicated values after some checking on the effect of each value on the other feature, Checking the correlation with other columns, and the distribution of each feature that has missing values. 
 
-* Check outliers:
-Dealing with outliers thow Convert to z-score after process some of high probability outlier values by moving it to the nearest point in the curve (threshold values)
+* Checking outliers:
+Dealing with outliers by Converting to z-score after processing some of high probability outlier values by moving it to the nearest point in the curve (threshold values).
 
-**Modeling:**
+Modeling: 
 
 * I used several clustering algorithm like:
-KMeans, Mini-Batch K-Means, DBSCAN, Agglomerative, Birch, Mean Shift, Affinity Propagation, Spectral, Gaussian mixture, and PCA using cosine similarity of data points.
+KMeans, Mini-Batch K-Means, DBSCAN, Agglomerative, Birch, Mean Shift, Affinity Propagation, Spectral, Gaussian mixture, and PCA using cosine similarity of data points. 
 
 * I measure the accuracy of each algorithm using:
-Inertia, Silhouette, Silhouette score diagram (Silhouette Visualizer), also (Bayesian information criterion, Distance between Gaussian mixtures) for Gaussian mixture model.
+Inertia, Silhouette, Silhouette score diagram (Silhouette Visualizer), distortion score, also (Bayesian information criterion, Distance between Gaussian mixtures) for Gaussian mixture model. 
 
-* I used PCA with 95 percentage of the retrieved data to transform data and fit it to each model, and then visualize it using the new axes in 2D space.
+* I used PCA with 95 percentage of the retrieved data to transform data and fit it to each model, and then visualize it using the new axes in 2D space. 
 
 ## Run Example
 To run and show analysis, insights, correlation, and results between any set of features of the dataset, here is a simple example of it:
