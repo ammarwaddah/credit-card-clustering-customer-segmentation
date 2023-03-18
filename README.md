@@ -65,7 +65,7 @@ pip install tabulate\
 pip install python-math\
 pip install scikit-learn\
 pip install scipy\
-pip install yellowbrick\
+pip install yellowbrick
 
 '''\
 To install these packages with conda run:\
@@ -103,7 +103,7 @@ Dealing with missing and duplicated values after some checking on the effect of 
 
 Dealing with outliers by Converting to z-score after processing some of high probability outlier values by moving it to the nearest point in the curve (threshold values).
 
-Modeling: 
+**Modeling:** 
 
 * I used several clustering algorithm like:
 KMeans, Mini-Batch K-Means, DBSCAN, Agglomerative, Birch, Mean Shift, Affinity Propagation, Spectral, Gaussian mixture, and PCA using cosine similarity of data points. 
