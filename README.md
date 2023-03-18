@@ -100,6 +100,7 @@ conda install -c districtdatalabs yellowbrick\
 Dealing with missing and duplicated values after some checking on the effect of each value on the other feature, Checking the correlation with other columns, and the distribution of each feature that has missing values. 
 
 * Checking outliers:
+
 Dealing with outliers by Converting to z-score after processing some of high probability outlier values by moving it to the nearest point in the curve (threshold values).
 
 Modeling: 
